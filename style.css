@@ -1,0 +1,175 @@
+/* reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* general styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .container h2{
+    color:gray
+  }
+
+  p {
+    padding: 20px;
+  }
+  
+  /* header styles */
+  header {
+    background-color: #333;
+    background: linear-gradient(to bottom, black, darkgray);
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: forestgreen;
+  }
+  
+  /* hero section styles */
+  .hero {
+    background-image: url('https://www.pexels.com/photo/gray-high-rise-buildings-936722/');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #gray;
+  }
+  
+  .hero h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  /* services section styles */
+  .services {
+    padding: 80px 0;
+    background-color: black;
+  }
+  
+  .services h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* about section styles */
+  .about {
+    background-color: white;
+    color: darkgray;
+    padding: 80px 0;
+  }
+  
+  .about h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  /* contact section styles */
+  .contact {
+    padding: 80px 0;
+  }
+  
+  .contact h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .contact form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact form textarea {
+    height: 200px;
+  }
+  
+  .contact form button {
+    background-color: #f7c08a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
